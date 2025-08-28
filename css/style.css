@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(216, 214, 214);
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 1200px;
+    border: 2px solid #ccc;
+    margin: 0 auto;
+}
+
+header{
+    border-bottom: 5px solid #EC1D24;
+}
+
+.logo{
+    width: 100px;
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin-top: 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    background-color: #EC1D24;
+    color: #FFF;
+    padding: 14px;
+    margin: 14PX;
+    border-radius: 10px;
+}
+
+.banner1{
+    height: 340px;
+    background: url("../imagenes/Que-es-un-software-de-gestion-documental.jpg") 0 -48px;
+    background-size: cover;
+}
+
+.banner1 h2{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(253, 252, 252);
+    padding: 90px 0 0 40px;
+    text-shadow: 5px 5px 5px #000;
+}
+ 
+footer{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    color: rgb(8, 8, 8);
+    padding: 90px 0 0 40px;
+    text-shadow: 2px 5px 5px #000;
+}
+
+.card img{
+    width: 60%;
+    height: 10%;
+}
+.card{
+    width: 30%;
+    float: left;
+    margin: 8px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.card p{
+    font-size: 19px;
+    text-align: justify;
+
+}
+
+.clear{
+    clear: both;
+    color: rgb(255, 255, 255);
+}
+
+.clear{
+    clear: both;
+}
+
+p{
+    font-size: 80%;
+    text-align:justify;
+}
+
+.img_personaje{
+    display: flex;
+    max-width: 200px;
+    float: left;
+    border: 3px solid #FFF;
+    margin-right: 10px;
+}
+.container2 h3{
+    font-size: 30px;
+}
+
+.container2 p{
+    font-size: 25px;
+}
+
+.img{
+    width: 95%;
+    text-align: center;
+}
+
+.img2{
+    width: 50%;
+    text-align: center;
+}
+
+.container2 .cont2img{
+    text-align: center;
+} 
+
+h3{
+    text-align: center;
+}
